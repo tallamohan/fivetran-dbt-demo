@@ -1,0 +1,14 @@
+dbt_project:
+  outputs:
+    dev:
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      threads: 1
+      type: teradata
+      host: # Update this field with your teradata instance hostname
+      schema: 
+      tmode: ANSI
+      logmech: TD2
+      user: # Update this field with your teradata instance database name
+      password:  # Update this field with your teradata instance password
+  target: dev
