@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: demo_user
     tables:
-      - name: ecommerce_users
+      - name: google_sheets_ecom_users
         description: 'Structured user data loaded by Fivetran.'
         columns:
           - name: id
@@ -18,7 +18,7 @@ sources:
           - name: updated_at
           - name: _fivetran_synced
 
-      - name: ecommerce_products
+      - name: google_sheets_ecom_products
         description: 'Structured product data loaded by Fivetran.'
         columns:
           - name: id
@@ -30,7 +30,7 @@ sources:
           - name: updated_at
           - name: _fivetran_synced
 
-      - name: ecommerce_purchases
+      - name: google_sheets_ecom_purchases
         description: 'Structured purchase data loaded by Fivetran.'
         columns:
           - name: id
