@@ -13,4 +13,4 @@ select
     cast(created_at as timestamp) as created_at,
     updated_at,
     added_to_cart_at
-from {{ source('demo_user', 'ecommerce_purchases') }}
+from {{ source('demo_user', 'google_sheets_ecom_purchases') }}
