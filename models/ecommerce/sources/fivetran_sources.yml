@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: demo_user
+  - name: fivetran_dbt
     tables:
       - name: google_sheets_ecom_users
         description: 'Structured user data loaded by Fivetran.'
