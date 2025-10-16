@@ -6,4 +6,4 @@ select
     make,
     created_at,
     updated_at
-from {{ source('demo_user', 'google_sheets_ecom_products') }}
+from {{ source('fivetran_dbt', 'google_sheets_ecom_products') }}
